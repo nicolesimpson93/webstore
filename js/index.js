@@ -6,56 +6,31 @@
 const products = [
     {
       name: `Body Bloom`,
-      instr: { firstname: `Ryan`, lastname: `Bailey`  },
       code: `9987S9JN1`,
-      start: `Fall 2019`,
-      numWks: 15,
-      incBrks: `Yes`,
-      duration: `3hr, 0min`,
       cost: 35,
       qty: 12,
       category: `health`
     },{
       name: `Avacado Mask`,
       code: `991NSH71K`,
-      instr: { firstname: `Nastaran`, lastname: `Dadashi`  },
-      start: `Fall 2019`,
-      numWks: 15,
-      incBrks: `Yes`,
-      duration: `2hr, 40min`,
       cost: 20, 
       qty: 1,
       category: `health`
     },{
       name: `Deluxe Mix`,
       code: `09CM86K27`,
-      instr: { firstname: `R`, lastname: `P`  },
-      start: `Fall 2019`,
-      numWks: 22,
-      incBrks: `Yes`,
-      duration: `3hr, 00min`,
       cost: 30, 
       qty: 4,
       category: `body`
     },{
-      name: `Interface Development`,
+      name: `Candle`,
       code: `EKS9KM367`,
-      instr: { firstname: `R`, lastname: `P`  },
-      start: `Fall 2019`,
-      numWks: 22,
-      incBrks: `Yes`,
-      duration: `3hr, 00min`,
       cost: 35, 
       qty: 4,
       category: `body`
     },{
-      name: `Interface Development`,
+      name: `Coffee`,
       code: `289NDB893`,
-      instr: { firstname: `R`, lastname: `P`  },
-      start: `Fall 2019`,
-      numWks: 22,
-      incBrks: `Yes`,
-      duration: `3hr, 00min`,
       cost: 14, 
       qty: 4,
       category: `body`
