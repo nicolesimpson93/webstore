@@ -3,45 +3,59 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>[Document title]</title>
+    <title>Bodybloom</title>
     <meta name="description" content="[A short description]">
-    <meta name="author" content="[Your Name]">
+    <meta name="author" content="Nicole Simpson">
     <link rel="stylesheet" href="css/reset.css"> <!-- You may change this "Reset" to "Normalize" if preferred -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="css/index.css">
   </head>
   <body>
+   <div class= "topnav">
+    <nav aria-label="Primary">
+        <ul>
+          <li><a href="#">Home</a>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+          </li>
+          <li><a href="#">Podcast</a></li>
+        </ul>
+         </nav>
+         <li><a href="#"><span class="material-icons">shopping_cart</span></a></li>
+        </div>
+        </div>
     <header>
       <!-- Site logo, replace with your own -->
-      <a href="index.html"><img src="img/logo.svg" alt="HTML Logo (replace this)"></a>
+      <div class="logo">
+      <a href="index.html"><img src="img/healthcodelogo.png" alt="Healthcodelogo"></a>
+    </div>
+      <div class="heroimage"></div> 
+      <header>
+      <img src="img/bodybloom.png" alt="Backgroundimage"></div>
+    </header>
+        <div class="hero-text">
+          <h1>Body Bloom</h1>
+          <p>Nourish From Within</p>
+        </div>
+        <div class="explorebutton">
+        <button> <input type="text" placeholder="Search"></button> 
+      </div>
+    </div>
 
       <!-- Navigation menu and toggle button (non-functional) -->
-      <nav aria-label="Primary">
-        <button type="button">
-          <span class="material-icons">menu</span>
-        </button>
-        <ul>
-          <li><a href="#">Category</a>
-            <ul>
-              <li><a href="#">Subcategory</a></li>
-              <li><a href="#">Subcategory</a></li>
-              <li><a href="#">Subcategory</a></li>
-            </ul>
-          </li>
-          <li><a href="#">Category</a></li>
-          <li><a href="#">Category</a></li>
-          <li><a href="#">Category</a></li>
-        </ul>
-      </nav>
-
+      
+     
       <!-- Search for a product (non-functional) -->
+   
       <form>
-        <label>Search
-          <input type="search" name="find" id="find">
-        </label>
-        <button type="button"><span class="material-icons">search</span></button>
-      </form>
-
+          <label>Search
+            <input type="search" name="find" id="find">
+          </label>
+         
+        </form>
       <!-- Additional nav links -->
 
       <ul>
@@ -68,7 +82,7 @@
           <fieldset>
             <legend>Colour</legend>
             <ul>
-              <li><input type="checkbox" name="colour" value="black" id="black"> <label for="black">Black</label></li>
+              <li><input type="checkbox" name="size" value="black" id="black"> <label for="black">Black</label></li>
               <li><input type="checkbox" name="colour" value="white" id="white"> <label for="white">White</label></li>
               <li><input type="checkbox" name="colour" value="grey" id="grey"> <label for="grey">Grey</label></li>
               <li><input type="checkbox" name="colour" value="red" id="red"> <label for="red">Red</label></li>
@@ -120,30 +134,30 @@
       <section>
         <h2>Results</h2>
 
-        <div id="products">
+        
+        <div id="wrapper">
           <!-- Product 1 -->
-          <article class="product">
+          <article class="product1">
             <header>
-              <img src="img/product.jpg" alt="Product Image">
+              <img src="img/product1.jpg" alt="Body Bloom Powder">
             </header>
-            <h3>Product Name</h3>
-            <p>Here is a shot of this product that might entice a user to click and add it to their cart.</p>
+            <h3>Body Bloom</h3>
+            <p>Here is a delicious inner-health & beauty powder that promotes beautiful skin, nails and hair, along with supporting digestive wellbeing.</p>
             <form>
               <fieldset>
-                <legend>Colours</legend>
+                <legend>Options</legend>
                 <ul>
-                  <li><label><input type="radio" name="colour" value="r"> <span>Red</span></label></li>
-                  <li><label><input type="radio" name="colour" value="w"> <span>White</span></label></li>
-                  <li><label><input type="radio" name="colour" value="b"> <span>Blue</span></label></li>
+                  <li><label><input type="radio" name="Options" value="BB"> <span>Body Bloom</span></label></li>
+                  <li><label><input type="radio" name="Options" value="BBD"> <span>Bosy Bloom Deluxe</span></label></li>
                 </ul>
               </fieldset>
 
               <fieldset>
                 <legend>Sizes</legend>
                 <ol>
-                  <li><label><input type="radio" name="size" value="m"> <span>M</span></label></li>
-                  <li><label><input type="radio" name="size" value="l"> <span>L</span></label></li>
-                  <li><label><input type="radio" name="size" value="xl"> <span>XL</span></label></li>
+                  <li><label><input type="radio" name="size" value="g"> <span>200g</span></label></li>
+                  <li><label><input type="radio" name="size" value="g2"> <span>400g</span></label></li>
+                  <li><label><input type="radio" name="size" value="g3"> <span>600g</span></label></li>
                 </ol>
               </fieldset>
 
@@ -161,9 +175,9 @@
           </article>
 
           <!-- Product 2 -->
-          <article class="product">
+          <article class="product2">
             <header>
-              <img src="img/product.jpg" alt="Product Image">
+              <img src="img/product2.jpg" alt="Avacado Face Mask ">
             </header>
             <h3>Product Name</h3>
             <p>Here is a shot of this product that might entice a user to click and add it to their cart.</p>
@@ -200,9 +214,9 @@
           </article>
 
           <!-- Product 3 -->
-          <article class="product">
+          <article class="product3">
             <header>
-              <img src="img/product.jpg" alt="Product Image">
+              <img src="img/product3.jpg" alt="Nuts">
             </header>
             <h3>Product Name</h3>
             <p>Here is a shot of this product that might entice a user to click and add it to their cart.</p>
@@ -239,9 +253,9 @@
           </article>
     
           <!-- Product 4 -->
-          <article class="product">
+          <article class="product4">
             <header>
-              <img src="img/product.jpg" alt="Product Image">
+              <img src="img/product4.jpg" alt="Product Image">
             </header>
             <h3>Product Name</h3>
             <p>Here is a shot of this product that might entice a user to click and add it to their cart.</p>
@@ -278,9 +292,9 @@
           </article>
 
           <!-- Product 5 -->
-          <article class="product">
+          <article class="product5">
             <header>
-              <img src="img/product.jpg" alt="Product Image">
+              <img src="img/product5.jpg" alt="Product Image">
             </header>
             <h3>Product Name</h3>
             <p>Here is a shot of this product that might entice a user to click and add it to their cart.</p>
@@ -317,6 +331,9 @@
           </article>
         </div>
       </section>
+
+
+      
 
       <footer>
         <p>1-5 of 20 products found</p>
