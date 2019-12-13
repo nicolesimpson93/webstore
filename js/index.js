@@ -88,15 +88,6 @@ const products = [
               <h3>${product.name} ${SALE}</h3>
               <ul>
                 <li>Product Code: <strong>${product.code}</strong></li>
-                <li>Instructor: <strong>${product.instr.lastname}, ${product.instr.firstname}</strong></li>
-                <li>Start: <strong>${product.start}</strong></li>
-                <li class="product-weeks">
-                  Weeks: <strong>${product.numWks}</strong>
-                  <ul>
-                    <li>Includes Break: <strong>${product.incBrks}</strong></li>
-                  </ul>
-                </li>
-                <li>Duration: <strong>${product.duration}</strong></li>
               </ul>
               <div class="product-cost">${product.cost}</div>
             </article>`;
@@ -136,6 +127,6 @@ const products = [
   renderProducts(products); // Print the full set of courses
   //renderCourses(courses.filter(isInStock));  //  Print only courses in stock
   
-  document.getElementById('toggleView').addEventListener('click', toggleProductLayout);
-  document.getElementById('productCategory').addEventListener('change', loadProductCategory);
-  document.getElementById('producteName').addEventListener('input', loadProductByName);
+  // document.getElementById('toggleView').addEventListener('click', toggleProductLayout);
+  // document.getElementById('productCategory').addEventListener('change', loadProductCategory);
+  // document.getElementById('producteName').addEventListener('input', loadProductByName);
