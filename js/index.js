@@ -10,7 +10,6 @@ const products = [
       cost: 35,
       qty: 12,
       category: `health`
-      img: `bodybloom.png`
     },{
       name: `Avacado Mask`,
       code: `991NSH71K`,
@@ -42,25 +41,19 @@ const products = [
   /************* FUNCTIONS *************/
   // Stored functions that will run as part of this application
   
-  
-  function isInStock(prod) {
-    if (prod.qty > 0) {
-      return true;
-    } else {
-      return false;
-    }
+  productHTML = productHTML.replace (`[Image]`,product.Image);
+
+ function isInThisCategory(prod){
+   if(this==`all carriers`) {
+    return true;
+  } else if (prod.Filter == this) {
+    return true;
+  } else {
+    return false;
   }
-  
-  function isInThisCategory(prod) {
-    // The variable "this" is filled with the 2nd filter argument
-    if (this == 'all') {
-      return true;
-    } else if (prod.category == this) {
-      return true;
-    } else {
-      return false;
-    }
-  }
+ };
+
+ 
   
   function isMatchingName(prod) {
     // Trim the input of white space, then uppercase it, then check if it's included
