@@ -108,6 +108,23 @@ body, html {
     grid-auto-rows: minmax(100px, auto);
   }
 
-  <div class="footer">
-  <p>Footer</p>
-</div>
+ .bottomnav {
+  text-decoration: none;
+  color: white;
+}
+
+  footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:  rgb(46, 45, 45);
+    color: white;
+    text-align: left;
+  }
+
+  footer .material-icons{
+    color: white;
+    text-align: left;
+   
+  }
+
