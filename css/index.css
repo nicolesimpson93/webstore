@@ -101,9 +101,13 @@ body, html {
       background-color: blue;
   }
 
-  .wrapper {
+  .product {
     display: inline-grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
     grid-auto-rows: minmax(100px, auto);
   }
+
+  <div class="footer">
+  <p>Footer</p>
+</div>
