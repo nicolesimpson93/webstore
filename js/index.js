@@ -10,6 +10,7 @@ const products = [
       cost: 35,
       qty: 12,
       category: `health`
+      img: `bodybloom.png`
     },{
       name: `Avacado Mask`,
       code: `991NSH71K`,
@@ -90,6 +91,7 @@ const products = [
                 <li>Product Code: <strong>${product.code}</strong></li>
               </ul>
               <div class="product-cost">${product.cost}</div>
+              <div class="product-image">${product.img}</div>
             </article>`;
   }
   
