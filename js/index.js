@@ -42,6 +42,17 @@ const products = [
   // Stored functions that will run as part of this application
   
   productHTML = productHTML.replace (`[Image]`,product.Image);
+  if (product.Promotion){
+    prodctHTML= productHTML. replace (`[Promotion]`, `<small class="callout urgent"> Great Deal</small>`);
+  }
+
+  else{
+    prodctHTML= productHTML. replace (`[Promotion]`, ``);
+  }
+  prodctHTML= productHTML. replace (`display:none`,``);
+  return productHTML;
+};
+
 
  function isInThisCategory(prod){
    if(this==`all carriers`) {
@@ -53,7 +64,8 @@ const products = [
   }
  };
 
- 
+
+
   
   function isMatchingName(prod) {
     // Trim the input of white space, then uppercase it, then check if it's included
