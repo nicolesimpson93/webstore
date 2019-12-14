@@ -54,6 +54,7 @@ body, html {
   position: absolute;
 }
 
+
 .hero-text {
     text-align: center;
     position: absolute;
@@ -101,13 +102,13 @@ body, html {
       background-color: rgba(255, 182, 193, 0.445);
   }
 
+
   .product {
     display: inline-grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
     grid-auto-rows: minmax(100px, auto);
   }
-
 
 
   
@@ -121,6 +122,7 @@ footer .socialmedia{
   text-align: center;
   
 }
+
   footer {
     left: 0;
     bottom: 0;
